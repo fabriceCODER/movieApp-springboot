@@ -9,7 +9,7 @@ Authorization: Role-based access control for endpoints (e.g., ADMIN and USER rol
 Movie Management: CRUD (Create, Read, Update, Delete) operations for managing movies.
 Database Integration: PostgreSQL for persistent data storage.
 Modern Security: Implemented Spring Security with JWT for token-based access.
-###Technologies Used
+## Technologies Used
 Backend: Spring Boot
 Security: Spring Security, JWT
 Database: PostgreSQL
@@ -23,7 +23,7 @@ Java 17 or later
 Maven: Dependency management and build tool
 PostgreSQL: Database server
 IntelliJ IDEA: (Optional) IDE for development
-###Getting Started
+## Getting Started
 Clone the Repository
 git clone https://github.com/fabriceCODER/movieApp-springboot.git
 cd movie-application
