@@ -25,7 +25,7 @@ PostgreSQL: Database server
 IntelliJ IDEA: (Optional) IDE for development
 ###Getting Started
 Clone the Repository
-git clone https://https:github.com/fabriceCODER/movieApp-springboot.git
+git clone https://github.com/fabriceCODER/movieApp-springboot.git
 cd movie-application
 
 ## Configure the Database
