@@ -1,4 +1,4 @@
-###Movie Application
+##Movie Application
 Overview
 The Movie Application is a RESTful web service built with Spring Boot, PostgreSQL, and Spring Security, featuring user authentication via JWT (JSON Web Token). The application allows users to register, log in, and manage movies while adhering to modern security standards and best practices.
 
@@ -25,7 +25,7 @@ PostgreSQL: Database server
 IntelliJ IDEA: (Optional) IDE for development
 ###Getting Started
 Clone the Repository
-git clone https://github.com/yourusername/movie-application.git
+git clone https://https:github.com/fabriceCODER/movieApp-springboot.git
 cd movie-application
 
 ###Configure the Database
