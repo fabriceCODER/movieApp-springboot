@@ -1,8 +1,8 @@
-##Movie Application
-Overview
+## Movie Application 
+## Overview 
 The Movie Application is a RESTful web service built with Spring Boot, PostgreSQL, and Spring Security, featuring user authentication via JWT (JSON Web Token). The application allows users to register, log in, and manage movies while adhering to modern security standards and best practices.
 
-Features
+## Features 
 User Registration: Secure user registration with encrypted passwords.
 Authentication: JWT-based authentication for secure access to APIs.
 Authorization: Role-based access control for endpoints (e.g., ADMIN and USER roles).
@@ -28,7 +28,7 @@ Clone the Repository
 git clone https://https:github.com/fabriceCODER/movieApp-springboot.git
 cd movie-application
 
-###Configure the Database
+## Configure the Database
 Create a PostgreSQL database:
 
 CREATE DATABASE movie_app;
@@ -48,7 +48,7 @@ Run the application:
 mvn spring-boot:run
 The application will start on http://localhost:8080.
 
-###API Endpoints
+## API Endpoints
 Authentication Endpoints
 Method	Endpoint	Description	Auth Required
 POST	/api/auth/login	User login	No
@@ -64,7 +64,7 @@ Obtain a JWT token by logging in at /api/auth/login with valid credentials.
 Include the token in the Authorization header for protected endpoints:
 
 Authorization: Bearer <token>
-###Project Structure
+## Project Structure
 src/main/java/dev/fabish/movieApp
 │
 ├── config          # Spring Security and JWT configurations
@@ -74,7 +74,7 @@ src/main/java/dev/fabish/movieApp
 ├── service         # Business logic services
 ├── filter          # JWT filter for request validation
 ├── utils           # Utility classes (e.g., JWT utilities)
-###Future Improvements
+## Future Improvements
 Pagination and Sorting: Add support for paginated movie lists.
 User Profiles: Enable user-specific movie preferences and settings.
 Unit Tests: Add comprehensive test coverage for all endpoints.
@@ -82,10 +82,10 @@ Frontend Integration: Create a user-friendly frontend for interacting with the A
 ###Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-###License
+## License
 This project is licensed under the MIT License.
 
-###Contact
+## Contact
 For any questions or feedback, feel free to reach out:
 
 Name: Fabrice Ishimwe
