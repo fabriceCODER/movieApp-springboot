@@ -59,7 +59,7 @@ GET	/api/movies	Get all movies	USER, ADMIN
 POST	/api/movies	Add a new movie	ADMIN
 PUT	/api/movies/{id}	Update an existing movie	ADMIN
 DELETE	/api/movies/{id}	Delete a movie	ADMIN
-###JWT Authentication
+## JWT Authentication
 Obtain a JWT token by logging in at /api/auth/login with valid credentials.
 Include the token in the Authorization header for protected endpoints:
 
@@ -79,7 +79,7 @@ Pagination and Sorting: Add support for paginated movie lists.
 User Profiles: Enable user-specific movie preferences and settings.
 Unit Tests: Add comprehensive test coverage for all endpoints.
 Frontend Integration: Create a user-friendly frontend for interacting with the API.
-###Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
 ## License
